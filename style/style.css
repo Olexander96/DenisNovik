@@ -46,6 +46,7 @@
 
 .main-menu__item a {
     text-decoration: none;
+    color: #828282;
 }
 
 .main-menu__item a:visited {
