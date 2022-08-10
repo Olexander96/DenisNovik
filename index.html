@@ -247,7 +247,8 @@
         const HEADER = document.querySelector('.header');
         console.log(MENU__BUTTON);
         MENU__BUTTON.addEventListener('click', (e) => {
-            HEADER.classList.toggle('header--active')
+            HEADER.classList.toggle('header--active');
+            document.body.classList.toggle('no-scroll')
         });
     </script>
 </body>
